@@ -1,0 +1,56 @@
+.head {
+    font-size: 18px;
+    color: black;
+    background-color: #eaeaea;
+    font-weight: 400;
+}
+
+.short {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.full {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.chr {
+    list-style-image: url(img/list.png);
+    font-style: italic
+}
+
+body {
+    background-color: #f8f8f8
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    border: 1px solid #666;
+    text-align: center;
+    background-color: #666;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu a {
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    width: 100px;
+}
+
+.menu a:hover {
+    background-color: #f90;
+}
