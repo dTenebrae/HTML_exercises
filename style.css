@@ -1,17 +1,18 @@
+/* заголовки (кроме заглавного) */
 .head {
     font-size: 18px;
     color: black;
     background-color: #eaeaea;
     font-weight: 400;
 }
-
+/* краткое описание товара */
 .short {
     color: #707070;
     font-size: 14px;
     font-style: italic;
     line-height: 16px;
 }
-
+/* полное описание товара */
 .full {
     color: #484343;
     font-size: 16px;
@@ -19,16 +20,16 @@
     line-height: 24px;
     text-align: left;
 }
-
+/* список характеристик */
 .chr {
     list-style-image: url(img/list.png);
     font-style: italic
 }
-
+/* цвет фона */
 body {
     background-color: #f8f8f8
 }
-
+/* горизонтальное меню */
 .menu {
     margin: 0;
     padding: 0;
@@ -53,4 +54,24 @@ body {
 
 .menu a:hover {
     background-color: #f90;
+}
+/* поля ввода */
+.textIn {
+    width: 380px;
+    border-width: thick;
+    font-size: 16px;
+    height: 22px
+}
+/* письмо на деревню дедушке */
+.letter {
+    width: 380px;
+    height: 200px;
+}
+/* Граница вокруг картинок */
+.itemImg {
+    padding: 5px; /* Поля вокруг изображения */
+    margin-right: 2px; /* Отступ справа */
+    margin-bottom: 2px; /* Отступ снизу */
+    outline: 1px solid #ddd; /* Параметры рамки */
+    background: #f0f0f0; /* Цвет фона */
 }
